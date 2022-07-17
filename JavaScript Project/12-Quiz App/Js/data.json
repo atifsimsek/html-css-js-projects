@@ -1,0 +1,42 @@
+[
+    {
+        "question": "'Seni 3000 kere seviyorum' bu replik hangi kahramana söylenmiştir ?",
+        "a": "Iron Man",
+        "b": "Captain America",
+        "c": "Spider Man",
+        "d": "Thor",
+        "correct": "a"
+    },
+    {
+        "question": "Hangi Kahraman 70 yıl buzda donmuş şekilde beklemiştir ?",
+        "a": "Hawkeye",
+        "b": "Rocket",
+        "c": "Hulk",
+        "d": "Captain America",
+        "correct": "d"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi Iron Man'in kullandığı yapay zekalardan değildir",
+        "a": "JARVIS",
+        "b": "ULTRON",
+        "c": "FRIDAY",
+        "d": "EDITH",
+        "correct": "b"
+    },
+    {
+        "question": "Thor'un Mjnölyirden sonra kullandığı silah aşağıdakilerden hangisidir",
+        "a": "Odinsword",
+        "b": "The Darkhold",
+        "c": "Stormbreaker",
+        "d": "İnfinity Gautlet",
+        "correct": "c"
+    },
+    {
+        "question": "Green Goblin,Dr.Octopus,Sand Man düşmanlarla savaşan kahraman aşağıdakilerden hangisidir",
+        "a": "Spider Man",
+        "b": "Iron Man",
+        "c": "Black Widow",
+        "d": "Wanda Maximof",
+        "correct": "a"
+    }
+]

@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer";
+    height: 1800px;
+    grid-template-rows: 100px 1fr 300px;
+}
+
+#header {
+    grid-area: header;
+}
+
+#content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: 3fr 8fr;
+}
+
+
+
+
+div {
+    background-color: lightgrey;
+    border: thin solid black;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 2fr 3fr 2fr;
+    grid-gap: 1rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+.article>div:nth-child(1) {
+
+    grid-column: 1/ span 3;
+
+}
+
+.article>div:nth-child(3) {
+    display: flex;
+    background-color: gray;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.article>div:nth-child(7) {
+    display: flex;
+    background-color: rgb(207, 56, 56);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.article>div:nth-child(2){
+
+    grid-column: 1/ span 2;
+    display: flex;
+    align-items: center;
+    
+}
+
+.article>div:last-child {
+    grid-column: 2 / span 2;
+    display: flex;
+    align-items: center;
+    
+}
+
+.article>div {
+    border: none;
+    background-color: white;
+
+}
+
+#header {
+    background: no-repeat 10vw center white;
+    background-image:url("../img/logo.png");
+    background-size: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+#header>a {
+    color: grey;
+    margin: 0.5rem;
+
+}
+
+#header>a:hover {
+    opacity: 0.6;
+}
+
+#header>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#header>ul>li {
+    margin: 1rem;
+
+}
+
+#header>ul>li>a {
+
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.25rem;
+    text-decoration: none;
+
+
+}
+
+#header>ul>li>a.anasayfa {
+    background-color: red;
+    color: white;
+
+
+
+}
+
+#header ul a.anasayfa:hover {
+    background-color: lightgrey;
+    color: black;
+
+
+
+}
+
+#header ul a:hover {
+    background-color: lightgrey;
+    color: white;
+
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.introkaps {
+    flex: 0 0 30%;
+    border: none;
+    margin-left: 10vw;
+    margin-top: 5rem;
+    z-index: 98;
+    background-color: initial;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro::before {
+    content: "";
+    background: url("../img/featured.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.introkaps h5 {
+    display: block;
+    background-color: orangered;
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.introkaps h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+
+.introkaps p{
+    font-size: 1.2rem;
+    color: whitesmoke
+}
+
+.introkaps a.btn{
+    display: block;
+    width: 8rem;
+    background:red ;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+
+.article .contentbaslik{
+    background: none;
+    padding: 20px 30px;
+    font-size: 2rem;
+    
+    
+}
+
+.article .contentbaslik h3{
+    font-size: 2rem;
+    font-weight: bolder ;
+}
+
+.article .contentbox img{
+    height: 250px;
+    margin: 1rem;
+    justify-content: center;
+}
+
+
+.article .contentbox .boxkaps{
+    border: none;
+    background: none;
+    margin: 1rem;
+}
+
+.article .contentbox h5.eglbas{
+    background-color: orchid;
+    margin: 1rem;
+   
+
+}
+.article .contentbox h5.sprbas{
+    background: greenyellow;
+
+
+}
+
+.article .contentbox h5.tekbas{
+    background: skyblue;
+    margin: 1rem;
+}
+
+.article .contentbox h5{
+    display: block;
+    color: white;
+    width: 7rem ;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem ;
+    text-align: center;
+}
+
+.article .contentbox h3{
+    font-size: 1.5rem;
+    margin: 1rem 0.25rem;
+
+}
+
+.article .contentbox p{
+    font-size: 1.2rem;
+    margin: 0.25rem;
+    
+}
+
+
+#footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    grid-template-rows: 3fr 1fr;
+    background: rgb(100, 100, 100);
+    margin-top: 1rem;
+    grid-gap: 1rem;
+    border: none;
+    
+}
+
+#footer div:first-child{
+    margin-left: 10vw;
+}
+
+#footer div:nth-child(4){
+    margin-right: 10vw;
+}
+
+.cright {
+    display: flex;
+    grid-column: 1 / span 4;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 1rem;
+    border: none;
+    opacity: 0.5;
+    font-weight: bolder;
+ 
+}
+
+.footerbox{
+    padding: 1rem;
+    background: none;
+    border: none;
+    
+
+}
+.footerbox img{
+    width: 65%;
+    margin-bottom: 1rem;
+}
+
+.footerbox p{
+    font-size: 1.2rem;
+    color: whitesmoke;
+
+}
+
+.footerbox h3{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.footerbox form#iletisimform{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footerbox form button#gonderbtn{
+
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    background: rgb(226, 12, 12);
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+
+.footerbox ul{
+    list-style: none;
+    color: whitesmoke;
+
+}
+
+.footerbox ul li{
+    border-bottom: 1px dashed ;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+
+.footerbox a.uyebtn{
+    background: rgb(250, 250, 81);
+    display: block;
+    width: 5rem;
+    padding: 0.5rem ;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(29, 29, 18);
+    font-weight: bolder;
+    border-radius:0.5rem;
+    margin: 1rem;
+
+}

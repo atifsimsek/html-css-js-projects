@@ -1,0 +1,16 @@
+.slider
+{
+    width:500px;
+    height: 500px;
+    position:relative;
+    
+    
+   
+}
+
+img{
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+
+
+/*Header */
+
+
+
+header {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: auto;
+
+    width: 85%;
+
+}
+
+.container img {
+    width: 150px;
+  
+}
+
+.container i {
+    font-size: 3rem;
+    margin-top: 2.3rem;
+    z-index: 2;
+}
+
+.container ul {
+    margin-top: 3rem;
+    margin-right: 35%;
+    display: flex;
+    list-style: none;
+}
+
+.container ul li {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #592f13;
+}
+
+
+/*Main*/
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.col-6 {
+
+    flex-basis: 50%;
+}
+
+.col-6 .text {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.col-6 h1 {
+    font-size: 3rem;
+    margin-left: 3.6rem;
+}
+
+.col-6 span {
+    font-size: 5rem;
+    margin-left: 4rem;
+}
+
+.col-6 p {
+    font-size: 1.5rem;
+    margin-left: 3.6rem;
+}
+
+.col-6 .btn {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #864519;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 20%;
+    align-self: flex-end;
+
+}
+
+.col-6 .box {
+   
+    width: 32em;
+    height: 32rem;
+    margin-top: -6rem;
+    position: relative;
+    margin-left: 6rem;
+}
+
+.col-6 .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+
+.col-6 .box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}

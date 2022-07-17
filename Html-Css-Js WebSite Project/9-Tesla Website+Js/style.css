@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e0e0e0;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+}
+
+body {
+    background-image: url(/images/image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    transition: 0.7s ease-in;
+    overflow: hidden;
+
+    
+
+
+}
+
+.navbar {
+    display: flex;
+
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+
+
+}
+
+.navbar .logo {
+
+    flex-grow: 1;
+}
+
+.navbar .logorsm {
+    width: 4.5rem;
+
+}
+
+.navbar .nav {
+
+    flex-grow: 2;
+    margin: auto 0;
+
+}
+
+
+.navbar .nav ul {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+
+}
+
+.navbar .nav ul li {
+
+    margin-right: 8rem;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.navbar .nav ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #e0e0e0;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+
+
+}
+
+.navbar .nav ul li:hover::after {
+    width: 100%;
+}
+
+.navbar .nav ul li a {
+    font-size:1.1rem;
+    text-decoration: none;
+
+}
+
+
+.navbar .div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+
+.navbar .div-btn .btn {
+    width: 90%;
+    background: none;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+
+}
+
+.navbar .div-btn .btn:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    transition: 0.5s;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 85%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    padding: 3rem;
+    margin-bottom: 1rem;
+}
+
+.info div {
+    margin-right: 5rem;
+    
+}
+
+.info div h1 {
+
+    font-size: 2.5rem;
+
+}
+.info div h3 {
+
+    font-size: 1rem;
+}
+
+
+.info .line {
+    flex: 1;
+    height: 4px;
+    background-color: #e0e0e0;
+    margin-top: 1.75rem;
+    border-radius: 3px;
+
+}
