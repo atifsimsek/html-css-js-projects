@@ -1,5 +1,3 @@
-
----
 <h1 align="center">Website İmages</h1>
 
 <br/>
@@ -57,10 +55,6 @@
 <br/>
 <br/>
 
-
----
-
-
 <h1 align="center">Tablet Version İmages</h1>
 
 
@@ -113,9 +107,6 @@
 
 <br/>
 <br/>
-
-
----
 
 <h1 align="center">Mobile Version İmages</h1>
 
