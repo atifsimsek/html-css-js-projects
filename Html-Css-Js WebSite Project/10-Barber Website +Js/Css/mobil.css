@@ -55,14 +55,30 @@
     flex-direction: column;
 }
 
+.service-box .single-service .overlay {
+    
+    height: 98%!important;
+}
+
+
 .single-service:hover .service-desc {
     bottom: 17% !important;
 }
+
+
 
 /* SOCİAL */
 
 #social .social-row {
     flex-direction: column;
+}
+#social .user-info{
+    margin-bottom:8px!important;
+}
+
+#social .user-info .fa-twitter,h4{
+    
+    font-size: 12px;
 }
 
 #social .social-row .tweet-box
