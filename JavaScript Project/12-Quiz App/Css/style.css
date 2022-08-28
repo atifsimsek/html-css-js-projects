@@ -45,6 +45,8 @@ img {
 }
 
 .container h3 {
+    font-size: 1.14em;
+    text-align: center;
     margin-top: 5px;
     align-self: center;
 }

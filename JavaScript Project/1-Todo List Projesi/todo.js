@@ -139,7 +139,7 @@ function addTodoToUI(newTodo) {
 }
 
 // Local strogeden dizi alma
-function getToLocalStroge(newTodo) {
+function getToLocalStroge() {
     let todos;
 
     if (localStorage.getItem("todos") === null) {

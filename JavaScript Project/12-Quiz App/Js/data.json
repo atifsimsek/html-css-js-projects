@@ -16,7 +16,7 @@
         "correct": "d"
     },
     {
-        "question": "Aşağıdakilerden hangisi Iron Man'in kullandığı yapay zekalardan değildir",
+        "question": "Aşağıdakilerden hangisi Iron Man'in kullandığı yapay zekalardan değildir ?",
         "a": "JARVIS",
         "b": "ULTRON",
         "c": "FRIDAY",
@@ -24,7 +24,7 @@
         "correct": "b"
     },
     {
-        "question": "Thor'un Mjnölyirden sonra kullandığı silah aşağıdakilerden hangisidir",
+        "question": "Thor'un Mjnölyirden sonra kullandığı silah aşağıdakilerden hangisidir ?",
         "a": "Odinsword",
         "b": "The Darkhold",
         "c": "Stormbreaker",
@@ -32,7 +32,7 @@
         "correct": "c"
     },
     {
-        "question": "Green Goblin,Dr.Octopus,Sand Man düşmanlarla savaşan kahraman aşağıdakilerden hangisidir",
+        "question": "Green Goblin,Dr.Octopus,Sand Man düşmanlarla savaşan kahraman aşağıdakilerden hangisidir ?",
         "a": "Spider Man",
         "b": "Iron Man",
         "c": "Black Widow",
