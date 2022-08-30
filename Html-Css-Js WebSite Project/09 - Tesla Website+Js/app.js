@@ -12,14 +12,14 @@ function eventlisteners() {
 
     models.addEventListener("click", () => {
 
-        background.style.backgroundImage = "url('/img/image-1.png')";
+        background.style.backgroundImage = "url('img/image-1.png')";
         model.textContent = "Model S";
 
 
     })
     model3.addEventListener("click", () => {
 
-        background.style.backgroundImage = "url('/img/image-2.png')";
+        background.style.backgroundImage = "url('img/image-2.png')";
         model.textContent = "Model 3";
 
 
@@ -27,7 +27,7 @@ function eventlisteners() {
 
     modelx.addEventListener("click", () => {
 
-        background.style.backgroundImage = "url('/img/image-3.png')";
+        background.style.backgroundImage = "url('img/image-3.png')";
         model.textContent = "Model X";
 
 
@@ -35,7 +35,7 @@ function eventlisteners() {
 
     modely.addEventListener("click", () => {
 
-        background.style.backgroundImage = "url('/img/image-4.png')";
+        background.style.backgroundImage = "url('img/image-4.png')";
         model.textContent = "Model Y";
 
 
