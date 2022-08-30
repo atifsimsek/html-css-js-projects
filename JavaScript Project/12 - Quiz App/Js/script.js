@@ -14,7 +14,7 @@ let score = 0;
 
 const getData = async () => {
 
-    const res = await fetch("/Js/data.json")
+    const res = await fetch("./Js/data.json")
     const data = await res.json()
     return data;
 
