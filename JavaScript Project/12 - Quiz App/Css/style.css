@@ -27,7 +27,7 @@ img {
 }
 
 .container {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #756e6e84), url(/img/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #756e6e84), url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
