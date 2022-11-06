@@ -1,4 +1,4 @@
-<h2 align="center"><a href="https://atifsimsek.github.io/Html-Css-Js-Projects/Html-Css-Js%20WebSite%20Project/01%20-%20%C4%B0lk%20Site%20Denemesi/index.html">Click To Review</a> </h2>
+<h2 align="center"><a href="https://atifsimsek.github.io/html-css-js-projects/Html-Css-Js%20WebSite%20Project/01%20-%20%C4%B0lk%20Site%20Denemesi/index.html">Click To Review</a> </h2>
 
 <h3 align="center">Website İmages</h3>
 <br/>
